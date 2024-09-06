@@ -1,41 +1,19 @@
-namespace Topic_1___The_Basics
+namespace Project_1_assignment
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("                _
-            ,.-" "-.,
-           /   ===   \
-          /  =======  \
-       __|  (o)   (0)  |__      
-      / _|    .---.    |_ \         
-     | /.----/ O O \----.\ |       
-      \/     |     |     \/        
-      |                   |            
-      |                   |           
-      |                   |          
-      _\   -.,_____,.-   /_         
-  ,.-"  "-.,_________,.-"  "-.,
- /          |       |          \  
-|           l.     .l           | 
-|            |     |            |
-l.           |     |           .l             
- |           l.   .l           | \,     
- l.           |   |           .l   \,    
-  |           |   |           |      \,  
-  l.          |   |          .l        |
-   |          |   |          |         |
-   |          |---|          |         |
-   |          |   |          |         |
-   /"-.,__,.-"\   /"-.,__,.-"\"-.,_,.-"\
-  |            \ /            |         |
-  |             |             |         |
-   \__|__|__|__/ \__|__|__|__/ \_|__|__/");
-            Console.WriteLine("Made by Monkey For Monki");
-            Console.WriteLine("");
-            Console.Write("Press any key silly 🦍");
-            Console.ReadLine();
+            //This is my initial written in a 5x7 grid following the format in the instructions posted on the assignment.
+            Console.WriteLine(" SSSS    K   K ");
+            Console.WriteLine("S        K  K  ");
+            Console.WriteLine("S        K K   ");
+            Console.WriteLine(" SSSS    KK    ");
+            Console.WriteLine("     S   K K   ");
+            Console.WriteLine("S    S   K  K  ");
+            Console.WriteLine(" SSSS    K   K ");
+
+            //I used write line and did it manually, as it made it more challenging than if I were to use an ASCII text art generator and use only one write line and kept on using "/n" to make it look like a grid.
         }
     }
 }
